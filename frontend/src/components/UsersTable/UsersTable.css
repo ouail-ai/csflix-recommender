@@ -1,0 +1,35 @@
+/* UsersTable.css */
+
+.users-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.users-table th,
+.users-table td {
+  padding: 8px;
+  border: 1px solid #ccc;
+}
+
+.users-table th {
+  background-color: #007bff; /* Bleu pour l'en-tête */
+  color: #fff;
+}
+
+.users-table td {
+  text-align: center;
+}
+
+.users-table button {
+  padding: 6px 12px;
+  background-color: #dc3545; /* Rouge pour le bouton Delete */
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.users-table button:hover {
+  background-color: #c82333;
+}
+

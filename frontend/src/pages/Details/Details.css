@@ -1,0 +1,56 @@
+.details{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.details img{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 50px;
+    cursor: pointer;
+
+}
+
+.details iframe{
+    border-radius: 10px;
+    width: 800px;
+    height: 400px;
+}
+
+.details-info{
+    padding-top: 4%;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.button-container {
+    position: absolute;
+    bottom: 10px; /* Adjust as needed */
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-between; /* Position one button to the left and one to the right */
+    padding: 0 10px; /* Add some padding to the sides if needed */
+  }
+
+  .Like{
+    color: rgb(3, 133, 3);
+    cursor: pointer;
+  }
+
+  
+  .liked {
+    color: red; /* La couleur lorsque l'élément est liké */
+  }
+  
+
+  .DisLike{
+    color: red;
+    cursor: pointer;
+  }

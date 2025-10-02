@@ -1,0 +1,119 @@
+.navbar{
+    width: 100%;
+    padding : 20px 4%;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    font-size: 14px;
+    color: #e5e5e5;
+    background-image: linear-gradient(180deg,rgba(0,0,0,0.7) 10%,transparent);
+    z-index: 1;
+}
+
+.navbar-left{
+    display:flex;
+    align-items: center;
+    gap: 60px;
+}
+
+.navbar-left p{
+    text-decoration: none;
+}
+
+
+.navbar-left img{
+    width: 150px;
+    cursor: pointer;
+}
+
+.navbar-left ul{
+    display: flex;
+    list-style: none;
+    gap: 40px;
+
+}
+
+.nav-link {
+    text-decoration: none; 
+    color: #e5e5e5; 
+  }
+
+.navbar-left li{
+    cursor: pointer;
+    
+}
+
+.navbar-right{
+    display: flex;
+    gap: 40px;
+    align-items: center;
+
+}
+
+
+.navbar-profile{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    cursor: pointer;
+    width: 60px;
+    position: relative;
+  
+}
+
+.nav-right-link{
+    text-decoration: none; 
+    color: #e5e5e5; 
+}
+
+.navbar .dropdown p{
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.navbar-profile:hover .dropdown{
+    display: block;
+}
+
+.nav-dark{
+    background: #141414;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .search-input {
+    width: 740px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #202020;
+    border-radius: 4px;
+    background-color: #646363;
+    color: #d0d0d0;
+  }  
+
+  .search-input::placeholder {
+    color: #d0d0d0; 
+    opacity: 0.7; 
+  }
+
+  .icons:hover {
+    background-color: #323232;
+  }
+
+  .filtrage{
+    position: absolute;
+  }
+
+.search_zone{
+    position: absolute;
+    padding-left: 3%;
+    padding-top: 4%;
+
+}
+.more-cards{
+    position: absolute;
+}
